@@ -34,6 +34,7 @@ RUN git clone https://github.com/lifeiteng/vall-e
 WORKDIR /workspace/dependencies/vall-e
 RUN pip install -e .
 
-RUN pip install vocos gradio
+RUN pip install vocos gradio ipykernel
+RUN pip install -U Ninja2
 
 WORKDIR /workspace
