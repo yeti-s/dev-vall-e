@@ -38,3 +38,4 @@ RUN pip install vocos gradio ipykernel
 RUN pip install -U Ninja2
 
 WORKDIR /workspace
+RUN git clone -b develop https://github.com/yeti-s/dev-vall-e.git
